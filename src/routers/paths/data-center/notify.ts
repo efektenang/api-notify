@@ -9,7 +9,7 @@ export const RouteNotify: FX_ROUTERS.TRouterConfigs = {
         suffix: "send",
         code: "POST-NOTIFY",
         name: "Send notification message to client.",
-        auth: true,
+        auth: false,
       },
     ],
   },
