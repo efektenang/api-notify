@@ -11,7 +11,7 @@ export class NotifyService {
     firebase.initializeApp({
       credential: applicationDefault(),
       // databaseURL: process.env.FIREBASE_DATABASE_URL,
-      projectId: "notification-center-e31fb",
+      projectId: process.env.FIREBASE_PROJECT_ID,
     });
   }
 
