@@ -8,7 +8,7 @@
   "license": "GPL-3.0-or-later",
   "scripts": {
     "build": "nest build",
-    "start:dev": "SET NEST_ENV=dev&&nest start --watch",
+    "start:dev": "NEST_ENV=dev nest start --watch",
     "start:debug": "NEST_ENV=dev nest start --debug --watch",
     "start:prod": "NEST_ENV=prod node dist/main",
     "test": "NEST_ENV=test --detectOpenHandles --runInBand --forceExit --outputFile ./jest-result --json",

@@ -38,4 +38,4 @@ src/mock-data/*
 !.vscode/extensions.json
 
 #IDE Google Firebase
-notification-center-e31fb-firebase-adminsdk-k5uu9-dc0145b554.json
+notification-center-e31fb*
